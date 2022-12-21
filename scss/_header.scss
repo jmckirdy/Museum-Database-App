@@ -1,0 +1,62 @@
+// .header {
+//     font-size: x-large;
+//     color: $backgroundColor;
+//     background-color: $primaryColor;
+//     // background: linear-gradient(rgba(189, 189, 189, 0.5), rgba(245, 245, 245, 0.225));
+//     text-align: center;
+//     border-radius: 12px;
+//     border: 1px solid $borderColor;
+//     margin: 12px;
+//     padding: 12px;
+// }
+.header {
+  font-size: xx-large;
+  color: $backgroundColor;
+  background-image: linear-gradient(rgba(215, 215, 215, 0.202), rgba(156, 156, 156, 0.225)), url('../favbannerimgs/banner2.jpg');
+  text-align: center;
+  // border: 1px solid $borderColor;
+  padding: 12px;
+  border-top: 1px solid $primaryColor;
+  border-bottom: 1px solid $borderColor;
+
+  /* Set a specific height ???Is notss working right*/
+  height: 150%;
+  // width: 40%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $cardColor;
+    border-bottom: 1px solid $borderColor;
+
+  h1 {
+    margin: 4px 15px;
+  }
+  // h1:hover {
+  //   color: rgb(55, 30, 161);
+  // }
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+  li {
+    padding: 4px 15px ;
+  }
+  a {
+    color: $primaryColor;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $lightPrimary;
+    text-decoration: underline;
+  }
+}

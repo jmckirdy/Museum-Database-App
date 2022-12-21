@@ -1,0 +1,47 @@
+.nav {
+    
+    // display: hidden;
+    // margin: 12px;
+    margin-right: 140px;
+    padding: 5px;
+
+    border-radius: 12px;
+    border: 1px solid $borderColor;
+    background-color: $cardColor;
+
+    // WAS left, this solved layout mucho!
+    float: right;
+    width: 15%;
+    min-height: 275px;
+
+    img {
+        display: block;
+        // position:inherit;
+        width:60%;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
+
+    h3 {
+        font-size: xx-large;
+        color: $lightPrimary;
+        background-color: $backgroundColor;
+        text-align: center;
+        margin: 4px 0px;
+
+    }
+
+    a {
+        color: $secondaryColor;
+        text-decoration: none;
+        line-height: 28px;
+    }
+    
+    form {
+        color: $textColor;
+        // border: 1px solid white; 
+        // padding:4px;
+    }
+}

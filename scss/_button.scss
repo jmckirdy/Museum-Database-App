@@ -1,0 +1,17 @@
+.button {
+    padding: 8px;
+    margin: 12px;
+    margin-left: 0px;
+    color: $backgroundColor;
+    background-color: $primaryColor;
+    font-size: larger;
+    border-radius: 12px;
+    border: 1px solid $backgroundColor;
+    // onHover; white/orBlue border turns orange
+}
+.button:hover {
+    border-color: $primaryColor;
+    color: darken($backgroundColor, 10%);
+    background-color: darken($primaryColor, 10%);
+    transition-duration: 0.4s;
+}

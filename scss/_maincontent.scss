@@ -1,0 +1,67 @@
+.main {
+
+    padding: 12px;
+    margin-left: 140px;
+    float: left;
+    width: 65%;
+    border: 1px solid $borderColor;
+    border-radius: 12px;
+    background-color: $cardColor;
+
+    
+    h1 {
+        // font-size: xx-large;
+        color: $lightPrimary;
+        background-color: $cardColor;
+        text-align: center;
+    }
+
+    a {
+        color: $secondaryColor;
+        text-decoration: none;
+    }
+
+    // HERE
+    #tile-image {
+        display: block;
+        width: 28%;
+        height: 28%;
+        padding-top: 10px;
+        border-radius: 12px;
+    }
+
+    .artifactimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 70%;
+        border-radius: 12px;
+    }
+
+    // NEED TO MESS AROUND WITH THIS TO GET CATEGORY LOOK RIGHT
+    table {
+        background-color: $cardColor;
+        tr {
+            background-color: $cardColor;
+            td {
+                background-color: $cardColor;
+                img {
+                    width: 60px;
+                    height: 60px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+// WORKS WHEN OUTSIDE OF .main SCOPE!!
+.test {
+    // display: block;
+    padding: 8px 8px;
+    margin: 4px 4px;
+    // border: 1px solid black;
+    border-radius: 12px;
+}

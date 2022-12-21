@@ -1,0 +1,17 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: x-large;
+    color: $backgroundColor;
+    background-color: $primaryColor;
+    padding: 12px 12px;
+    margin: 0px;
+    text-align: center;
+
+    a {
+        // color: #01a8ca;
+        color: $secondaryColor;
+    }
+}

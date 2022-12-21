@@ -1,0 +1,11 @@
+.breadcrumb {
+    padding: 12px;
+    margin-left: 140px;
+    float: left;
+    width: 65%;
+
+    a {
+        color: $secondaryColor;
+        text-decoration: underline;
+    }
+}

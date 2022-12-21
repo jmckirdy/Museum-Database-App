@@ -1,0 +1,12 @@
+// Tablet view 768 .sidenav, or .nav needs to HIDE!!
+@media (max-width: 1416px) {
+    .nav {
+        display: none;
+    }
+}
+
+// @media (max-width: 750px) {
+//     .bye {
+//       display: none;
+//     }
+//   }

@@ -1,0 +1,218 @@
+.breadcrumb {
+  padding: 12px;
+  margin-left: 140px;
+  float: left;
+  width: 65%;
+}
+.breadcrumb a {
+  color: rgb(47, 142, 225);
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Calibri", "Trebuchet MS", sans-serif;
+  font-size: larger;
+  background-color: white;
+  color: #222;
+}
+
+a {
+  font-size: larger;
+}
+
+h2 {
+  font-size: xx-large;
+  color: #4626cc;
+  background-color: white;
+}
+
+h3 {
+  font-size: x-large;
+  color: #4626cc;
+  background-color: white;
+}
+
+.button {
+  padding: 8px;
+  margin: 12px;
+  margin-left: 0px;
+  color: white;
+  background-color: rgb(55, 30, 161);
+  font-size: larger;
+  border-radius: 12px;
+  border: 1px solid white;
+}
+
+.button:hover {
+  border-color: rgb(55, 30, 161);
+  color: #e6e6e6;
+  background-color: #281676;
+  transition-duration: 0.4s;
+}
+
+.header {
+  font-size: xx-large;
+  color: white;
+  background-image: linear-gradient(rgba(215, 215, 215, 0.202), rgba(156, 156, 156, 0.225)), url("../favbannerimgs/banner2.jpg");
+  text-align: center;
+  padding: 12px;
+  border-top: 1px solid rgb(55, 30, 161);
+  border-bottom: 1px solid rgb(201, 214, 226);
+  /* Set a specific height ???Is notss working right*/
+  height: 150%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  border-bottom: 1px solid rgb(201, 214, 226);
+}
+nav h1 {
+  margin: 4px 15px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav li {
+  padding: 4px 15px;
+}
+nav a {
+  color: rgb(55, 30, 161);
+  text-decoration: none;
+}
+nav a:hover {
+  color: #4626cc;
+  text-decoration: underline;
+}
+
+.find {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: x-large;
+  color: white;
+  background-color: rgb(55, 30, 161);
+  padding: 12px 12px;
+  margin: 0px;
+  text-align: center;
+}
+.footer a {
+  color: rgb(47, 142, 225);
+}
+
+.nav {
+  margin-right: 140px;
+  padding: 5px;
+  border-radius: 12px;
+  border: 1px solid rgb(201, 214, 226);
+  background-color: whitesmoke;
+  float: right;
+  width: 15%;
+  min-height: 275px;
+}
+.nav img {
+  display: block;
+  width: 60%;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+.nav h3 {
+  font-size: xx-large;
+  color: #4626cc;
+  background-color: white;
+  text-align: center;
+  margin: 4px 0px;
+}
+.nav a {
+  color: rgb(47, 142, 225);
+  text-decoration: none;
+  line-height: 28px;
+}
+.nav form {
+  color: #222;
+}
+
+.main {
+  padding: 12px;
+  margin-left: 140px;
+  float: left;
+  width: 65%;
+  border: 1px solid rgb(201, 214, 226);
+  border-radius: 12px;
+  background-color: whitesmoke;
+}
+.main h1 {
+  color: #4626cc;
+  background-color: whitesmoke;
+  text-align: center;
+}
+.main a {
+  color: rgb(47, 142, 225);
+  text-decoration: none;
+}
+.main #tile-image {
+  display: block;
+  width: 28%;
+  height: 28%;
+  padding-top: 10px;
+  border-radius: 12px;
+}
+.main .artifactimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 70%;
+  border-radius: 12px;
+}
+.main table {
+  background-color: whitesmoke;
+}
+.main table tr {
+  background-color: whitesmoke;
+}
+.main table tr td {
+  background-color: whitesmoke;
+}
+.main table tr td img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.test {
+  padding: 8px 8px;
+  margin: 4px 4px;
+  border-radius: 12px;
+}
+
+@media (max-width: 1416px) {
+  .nav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+Hello Admin! This is the 'Back-End' manager site area. On the right side panel you can navigate 
+home(categories), login/logout, register a new account, and most importantly; 'Upload Artifacts' 
+for visitors to view.
+
+Back-End Admin Site: localhost/museum/admin/admin.php
+Customer Site: localhost/museum/index.php
+
+Things left to do for this app:
+
+Sep.26th
+-showartifact img, layout of text
+-$title in title location h1/
+
+-get uploadartifact.php working
+-register accounts & session cookies.
+-login to account cookies.
+
+ONLY GET NEWARTIFACT WORKING THEN UPLOAD/ USE THAT FORM to INSERT into db.
+

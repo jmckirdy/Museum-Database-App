@@ -1,0 +1,39 @@
+@import 'config';
+@import 'breadcrumb';
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: $fontStack;
+    font-size: larger;
+    background-color: $backgroundColor;
+    color: $textColor;
+}
+
+a {
+    font-size: larger;
+}
+
+h2 {
+    font-size: xx-large;
+    color: $lightPrimary;
+    background-color: $backgroundColor;
+}
+
+h3 {
+    font-size: x-large;
+    color: $lightPrimary;
+    background-color: $backgroundColor;
+}
+
+@import 'button';
+@import 'header';
+@import 'find';
+@import 'footer';
+@import 'sidenav';
+@import 'maincontent';
+@import 'mobile';
